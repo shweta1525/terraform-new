@@ -5,3 +5,7 @@ resource "aws_iam_user" "lb" {
     tag-key = "shweta"
   }
 }
+
+resource "aws_iam_user" "shweta" {
+  name = "shweta-11"
+}  
